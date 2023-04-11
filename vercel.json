@@ -1,0 +1,7 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "buildCommand": "yarn && yarn build",
+	"outputDirectory": "dist",
+	"installCommand": "yarn",
+  "framework": "vite"
+}
